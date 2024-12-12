@@ -69,14 +69,14 @@ select {
 
 .frameworks-list {
     list-style-image: url("./assets/image/Vector.svg"); 
-    padding-left: 20px; 
+    padding: 0 20px; 
     font-size: 16px;
        /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -91,9 +91,7 @@ select {
     width: 330px;
     height: 36px;
     background: rgba(255, 255, 255, 0);
-/*font-weight: 400;
-font-size: 16px;
-color: rgba(48, 48, 48, 0.2);*/
+    font-size: 16px;
     padding: 8px 12px;
     margin-right: 9px;
 
@@ -133,6 +131,7 @@ th, td {
 }
 table tr:first-of-type {
     font-weight: 700;
+    font-size: 16px;
 }
 
 footer {
@@ -146,6 +145,9 @@ footer {
     font-size: 14px;
     color: #2965f1;
     /* Стили для футера */
+}
+.footer-link:hover {
+    color:red;
 }
 .footer-link:visited {
     color:green;
