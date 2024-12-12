@@ -118,13 +118,12 @@ select {
 
 table {
     border-collapse: collapse;
-        
+    border: 1px solid #95a1bb;
+    font-size: 14px;        
     /* Стили для таблицы */
 }
 
 th, td {
-    border: 1px solid #95a1bb;
-    font-size: 14px;
     padding:12px 15px;
     height: 40px;
     /* Стили для ячеек таблицы */
@@ -145,9 +144,7 @@ footer {
     color: #2965f1;
     /* Стили для футера */
 }
-.footer-link:hover {
-    color:red;
-}
+
 .footer-link:visited {
     color:green;
 } 
