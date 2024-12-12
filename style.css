@@ -130,8 +130,7 @@ th, td {
     /* Стили для ячеек таблицы */
 }
 table tr:first-of-type {
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 700;    
 }
 
 footer {
